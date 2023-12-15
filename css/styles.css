@@ -1,10 +1,11 @@
 body {
-  font-family: Roboto, Raleway, sans-serif;
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.333;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 h1 {
@@ -12,7 +13,7 @@ h1 {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.333;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 h2 {
@@ -43,7 +44,7 @@ button {
   cursor: pointer;
 }
 
-button:hover, 
+button:hover,
 button:focus {
   border-color: #404bbf;
   background-color: #404bbf;
@@ -57,17 +58,43 @@ button:focus {
 .address-link .link:active {
   color: #404bbf;
 }
-.section-1{
-    background-color: #2E2F42;
+.section-1 {
+  background-color: #2e2f42;
 }
-.section-2{
-    background-color: #F4F4FD;
+.section-2 {
+  background-color: #f4f4fd;
 }
 
 footer {
-    background-color: #2E2F42;
+  background-color: #2e2f42;
 }
 
-.text-footer{
-    color: #F4F4FD;
+.text-footer {
+  color: #f4f4fd;
+}
+
+.logo-web {
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.logo-studio {
+  color: #2e2f42;
+}
+
+.nav-link {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.nav-link:hover,
+.nav-link:focus{
+    color: #404bbf;
 }
