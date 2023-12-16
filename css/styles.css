@@ -8,7 +8,8 @@ body {
   background-color: #ffffff;
 }
 
-.link{
+.link,
+.logo-web{
   text-decoration: none;
 }
 ul{
@@ -81,6 +82,7 @@ footer {
 }
 
 .text-footer {
+  line-height: 1.5;
   color: #f4f4fd;
 }
 
@@ -94,8 +96,12 @@ footer {
   color: #4d5ae5;
 }
 
-.logo-studio {
+.logo-studio-header {
   color: #2e2f42;
+}
+
+.logo-studio-footer{
+  color: #F4F4FD;
 }
 
 .nav-link {
