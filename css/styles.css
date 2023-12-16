@@ -9,19 +9,11 @@ body {
 }
 
 .link,
-.logo-web{
+.logo-web {
   text-decoration: none;
 }
-ul{
+ul {
   list-style-type: none;
-}
-
-h1 {
-  font-family: Roboto, sans-serif;
-  font-size: 56px;
-  font-weight: 700;
-  line-height: 1.333;
-  color: #ffffff;
 }
 
 h2 {
@@ -44,7 +36,7 @@ button {
   font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.333;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: white;
   border-color: #4d5ae5;
@@ -63,6 +55,7 @@ button:focus {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
+  font-style: normal;
   letter-spacing: 0.02em;
 }
 
@@ -70,11 +63,49 @@ button:focus {
 .address-link .link:focus {
   color: #404bbf;
 }
+
 .section-1 {
   background-color: #2e2f42;
 }
+.head-sec1 {
+  font-family: Roboto, sans-serif;
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #ffffff;
+}
 .section-2 {
   background-color: #f4f4fd;
+}
+.head-sec2 {
+  line-height: 1.2;
+  color: #2e2f42;
+}
+.text-s2 {
+  line-height: 1.5;
+}
+.section-3 {
+
+}
+.head-sec3 {
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.head-s4 {
+  line-height: 1.2;
+  color: #2e2f42;
+}
+.p4 {
+  line-height: 1.5;
+}
+
+.list-s3 {
+  background-color: #FFFFFF;
 }
 
 footer {
@@ -100,11 +131,11 @@ footer {
   color: #2e2f42;
 }
 
-.logo-studio-footer{
-  color: #F4F4FD;
+.logo-studio-footer {
+  color: #f4f4fd;
 }
 
-.nav-link {
+.nav-link .link {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
