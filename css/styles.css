@@ -50,12 +50,27 @@ button:focus {
   background-color: #404bbf;
 }
 
-.address-link .link {
+.nav-link .link{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.nav-link .link:hover,
+.nav-link .link:focus {
+  color: #404bbf;
+}
+
+.address-link{
+  font-style: normal;
+}
+.address-link .link{
   color: #434455;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  font-style: normal;
   letter-spacing: 0.02em;
 }
 
@@ -87,7 +102,7 @@ button:focus {
   line-height: 1.5;
 }
 .section-3 {
-
+  background-color: #F4F4FD;
 }
 .head-sec3 {
   line-height: 1.11;
@@ -135,14 +150,3 @@ footer {
   color: #f4f4fd;
 }
 
-.nav-link .link {
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-.nav-link .link:hover,
-.nav-link .link:focus {
-  color: #404bbf;
-}
