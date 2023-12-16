@@ -15,6 +15,18 @@ body {
 ul {
   list-style-type: none;
 }
+.nav-list .link{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.nav-list .link:hover,
+.nav-list .link:focus {
+  color: #404bbf;
+}
 
 h2 {
   font-family: Roboto, sans-serif;
@@ -48,19 +60,6 @@ button:hover,
 button:focus {
   border-color: #404bbf;
   background-color: #404bbf;
-}
-
-.nav-link .link{
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
-.nav-link .link:hover,
-.nav-link .link:focus {
-  color: #404bbf;
 }
 
 .address-link{
