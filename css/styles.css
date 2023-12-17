@@ -45,7 +45,6 @@ h3 {
 }
 
 .button {
-  font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -81,7 +80,7 @@ h3 {
 .section-first {
   background-color: #2e2f42;
 }
-.head-sec1 {
+.head-section-first {
   font-family: Roboto, sans-serif;
   font-size: 56px;
   font-weight: 500;
@@ -93,7 +92,7 @@ h3 {
 .section-second {
   background-color: #f4f4fd;
 }
-.head-sec2 {
+.head-section-second {
   line-height: 1.2;
   color: #2e2f42;
 }
